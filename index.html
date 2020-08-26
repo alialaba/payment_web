@@ -187,7 +187,13 @@
             </div>
         </div>
     </footer>
-    <script src="./main.js "></script>
+    <script>
+        const navToggle = document.querySelector('.nav-toggle');
+        const nav = document.querySelector('.nav');
+        navToggle.addEventListener('click', () => {
+            nav.classList.toggle('nav-visible')
+        })
+    </script>
 </body>
 
 </html>
