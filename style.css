@@ -14,7 +14,7 @@ img {
 
 header {
     padding: 1em 0;
-    color: #4a77a6;
+    color: #ffffff;
     text-align: center;
     font-weight: 900;
 }
@@ -33,7 +33,7 @@ hr {
 .logo {
     text-decoration: none;
     text-transform: uppercase;
-    border: 2px #4a77a6 solid;
+    border: 2px #ffffff solid;
     display: inline-block;
     border-radius: 50%;
     height: 2em;
@@ -134,10 +134,10 @@ hr {
 }
 
 .nav__link-button {
-    background-color: #4a77a6;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #4a77a6;
     padding: .5em 1.5em;
-    border-radius: 2em;
+    border-radius: .7em;
     position: sticky;
 }
 
@@ -159,7 +159,7 @@ hr {
 }
 
 .hero__text {
-    color: #4a77a6;
+    color: #ffffff;
 }
 
 .hero__text p {
@@ -189,6 +189,11 @@ hr {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 10px 10px 20px #00000029;
     opacity: 1;
+}
+
+.section {
+    background: url("asset/mask.jpg");
+    background-size: cover;
 }
 
 .section-two {
@@ -405,5 +410,19 @@ footer {
     .primaary-content-subtitle {
         padding-left: 1em;
         padding-right: 1em;
+    }
+    .logo {
+        /* text-decoration: none;
+        text-transform: uppercase; */
+        border: 2px #4a77a6 solid;
+        /* display: inline-block;
+        border-radius: 50%;
+        height: 2em;
+        width: 2em;
+        color: pink;
+        text-align: center;
+        font-size: .8rem;
+        padding: .5em;
+        margin: 0 auto; */
     }
 }
