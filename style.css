@@ -185,7 +185,6 @@ hr {
 
 .container {
     width: 85%;
-    max-width: 1920px;
     margin: 0 auto;
     position: relative;
 }
@@ -426,13 +425,10 @@ footer {
 
 /* about us */
 
-@media(min-width:1200px) {
-    /* .container {
-        width: 85%;
+@media(min-width:960px) {
+    .container {
         max-width: 1920px;
-        margin: 0 auto;
-        position: relative;
-    } */
+    }
     .nav-toggle {
         display: none;
     }
