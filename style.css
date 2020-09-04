@@ -426,7 +426,7 @@ footer {
 
 /* about us */
 
-@media(min-width:980px) {
+@media(min-width:800px) {
     .nav-toggle {
         display: none;
     }
