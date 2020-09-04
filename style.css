@@ -15,7 +15,6 @@
 body {
     margin: 0;
     font-size: 1rem;
-    /* font-family: 'Open Sans', sans-serif; */
 }
 
 img {
@@ -186,7 +185,7 @@ hr {
 
 .container {
     width: 85%;
-    max-width: 1200px;
+    max-width: 1920px;
     margin: 0 auto;
     position: relative;
 }
@@ -214,7 +213,8 @@ hr {
     opacity: 1;
     background: url("data:image/svg+xml,%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 378.11 335.8'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%232797e2;%7D%3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M524.9,216H872V551.8c-2.6-1.1-5.1-2.1-7.6-3.3-28.7-13.2-58-25.1-87.3-37-61.39-24.93-78.5-31.27-123.8-51.8-4.37-2-8-3.62-10.3-4.7s-5.49-2.95-9.47-5.07c-29-15.48-39.95-21-46.43-24.53a245.38,245.38,0,0,1-58.2-44.5c-13.2-13.7-23.9-29-29.9-47.3-3.7-11.5-5.8-23.3-4.9-35.3a132.68,132.68,0,0,1,10.1-42.5C510.1,242.1,517.4,229.2,524.9,216Z' transform='translate(-493.89 -216)'/%3E%3C/svg%3E") no-repeat right;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: top right;
+    background-size: auto;
     min-height: 100vh;
 }
 
@@ -426,7 +426,13 @@ footer {
 
 /* about us */
 
-@media(min-width:800px) {
+@media(min-width:1200px) {
+    /* .container {
+        width: 85%;
+        max-width: 1920px;
+        margin: 0 auto;
+        position: relative;
+    } */
     .nav-toggle {
         display: none;
     }
@@ -489,8 +495,8 @@ footer {
     .section {
         background: url("data:image/svg+xml,%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 378.11 335.8'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%232797e2;%7D%3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M524.9,216H872V551.8c-2.6-1.1-5.1-2.1-7.6-3.3-28.7-13.2-58-25.1-87.3-37-61.39-24.93-78.5-31.27-123.8-51.8-4.37-2-8-3.62-10.3-4.7s-5.49-2.95-9.47-5.07c-29-15.48-39.95-21-46.43-24.53a245.38,245.38,0,0,1-58.2-44.5c-13.2-13.7-23.9-29-29.9-47.3-3.7-11.5-5.8-23.3-4.9-35.3a132.68,132.68,0,0,1,10.1-42.5C510.1,242.1,517.4,229.2,524.9,216Z' transform='translate(-493.89 -216)'/%3E%3C/svg%3E") no-repeat right;
         background-repeat: no-repeat;
-        background-size: 55%;
-        min-height: 100vh;
+        background-size: auto;
+        /* min-height: 90vh; */
     }
     .section-two-subtitle {
         padding-left: .5em;
