@@ -425,7 +425,7 @@ footer {
 
 /* about us */
 
-@media(min-width:960px) {
+@media(min-width:1200px) {
     .container {
         max-width: 1920px;
     }
@@ -555,6 +555,9 @@ footer {
         padding-left: 2em;
         color: #4a77a6;
         font-weight: bold;
+    }
+    .start-subtitle {
+        font-size: 35px;
     }
     .footer {
         padding-left: 8em;
