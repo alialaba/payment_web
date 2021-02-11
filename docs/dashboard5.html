@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="dash.css">
+    <link rel="stylesheet" href="font/style.css">
+
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <main class="main ">
+        <aside class="sidebar">
+            <h1>Name Name<i class="fa fa-angle-down"></i></h1>
+            <ul class="list-span">
+                <li>
+                    <a href="#" class="dashboard">
+                        <span><img src="asset/j9.png" id="dashboard" alt="dashboard"></span>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span><img src="asset/j1.png" id="wallet" alt="Wallet"></span>
+                        <span>Wallet</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span><img src="asset/transaction.svg" id="payout" alt="payout account"></span>
+                        <span>Payout Account</span>
+                    </a>
+                    <li>
+                        <a href="#" class="transaction">
+                            <span><img src="asset/two-way-arrows.svg" id="transaction" alt="transaction"></span>
+                            <span>Transaction Record</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><img src="asset/j5.png" id="payment" alt="payment"></span>
+                            <span>Payment Page</span>
+                        </a>
+                        <li>
+                            <a href="#">
+                                <span><img src="asset/j6.png" id="budget" alt="budget"></i></span>
+                                <span>Budget Planner</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span><img src="asset/j7.png" id="card" alt="card"></span>
+                                <span>Add Card</span>
+                            </a>
+
+            </ul>
+            <p class="sidebar-subtitle">Support</p>
+        </aside>
+
+        <section class="primary-section">
+            <div class="hero-nav row">
+                <button class="nav-toggle" aria-label="open navigation">
+                    <span class="hamburger"></span>
+
+                </button>
+                <h1 class="primary-title-section">Hello Name!</h1>
+                <div class="icon">
+                    <i class="fa fa-bell icon-item"></i>
+                    <i class="fa fa-user icon-item"></i>
+                </div>
+            </div>
+
+            <div class="send-money">
+                <div class="inner-container">
+                    <form action="">
+                        <h2 class="send-title">Send Money</h2>
+                        <div class="field">
+                            <div class="label">
+                                <input type="checkbox"> Send to my payout Account
+
+                            </div>
+                        </div>
+                        <div class="field">
+                            <h4 class="send-subtitle">Recipient Details</h4>
+                            <div class="label">Select Bank</div>
+                            <select name="" id="send-input">
+                            <option value="" disabled selected>Select Bank</option>
+                            <option value=""></option>
+                        </select>
+                        </div>
+                        <div class="field">
+                            <div class="label">Account Number</div>
+                            <input type="text" id="send-input">
+                        </div>
+                        <div class="field">
+                            <div class="label">Amount</div>
+                            <input type="text" id="send-input">
+                        </div>
+                    </form>
+                    <div class="btn-send-row">
+                        <button class="btn-send-1">Send anonymously</button>
+                        <button class="btn-send-2">Send</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>

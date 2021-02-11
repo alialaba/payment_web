@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="dash.css">
+    <link rel="stylesheet" href="font/style.css">
+
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <main class="main ">
+        <aside class="sidebar">
+            <h1>Name Name <i class="fa fa-angle-down"></i></h1>
+            <p class="sidebar-subtitle">Support</p>
+        </aside>
+
+        <section class="primary-section">
+            <div class="hero-nav row">
+                <button class="nav-toggle" aria-label="open navigation">
+                    <span class="hamburger"></span>
+
+                </button>
+                <h1 class="primary-title-section">Hello Name, Welcome to your Dashboard</h1>
+                <div class="icon">
+                    <i class="fa fa-bell icon-item"></i>
+                    <i class="fa fa-user icon-item"></i>
+                </div>
+            </div>
+            <div class="header container">
+                <p class="primary-subtitle-section">Complete the following check to activate your account</p>
+
+                <div class="progress-bar">
+                    <div class="step">
+                        <div class="bullet">
+                            <span>1</span>
+                        </div>
+                        <div class="check fa fa-check"></div>
+                        <p>Personal Information</p>
+                    </div>
+                    <div class="step">
+                        <div class="bullet">
+                            <span>2</span>
+                        </div>
+                        <div class="check fa fa-check"></div>
+                        <p>Bussiness Information</p>
+                    </div>
+                    <div class="step">
+                        <div class="bullet">
+                            <span>3</span>
+                        </div>
+                        <div class="check fa fa-check"></div>
+                        <p>Payout Account</p>
+                    </div>
+
+                </div>
+                <div class="form-outer">
+                    <form action="#" id="regForm">
+
+                        <div class="page sildepage">
+                            <div class="page-title page-1">About You</div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="field">
+                                        <div class="label">First Name</div>
+
+                                        <input type="text" oninput="this.className = ''" id="input">
+                                    </div>
+                                    <div class="field">
+                                        <div class="label">Last Name</div>
+                                        <input type="text" oninput="this.className = ''" id="input">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="field">
+                                        <div class="label">Phone Number</div>
+                                        <input type="text" oninput="this.className = ''" id="input">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="field-btn nextBtn">
+
+                                <button onclick="nextPrev(1)">Next<i class="fa fa-angle-double-right"></i></button>
+                            </div>
+                        </div>
+
+
+                        <div class="page">
+                            <div class="page-title page-2">
+                                <p>Bussiness Information</p>
+                                <p>Not for Bussiness</p>
+                                <a href="#">
+                                    <p>Skip</p>
+                                </a>
+
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="field">
+
+                                        <div class="label">Bussiness Name</div>
+                                        <input type="text" oninput="this.className = ''" id="input">
+                                    </div>
+                                    <div class="field">
+                                        <div class="label">Service Provided</div>
+                                        <select name="" id="input">
+                                    <option value="" disabled selected></option>
+                                    <option value="" id="input">1</option>
+                                    <option value="" id="input">2</option>
+                                    <option value="" id="input">3</option>
+                                </select>
+                                    </div>
+                                    <div class="field">
+                                        <div class="label">Year of Operataion</div>
+                                        <select name="" id="input">
+                                    <option value="" disabled selected></option>
+                                    <option value="" id="input">1 year</option>
+                                    <option value="" id="input">2 years</option>
+                                    <option value="" id="input">3 years</option>
+                                </select>
+                                    </div>
+                                    <div class="field">
+
+                                        <div class="label">Do you need International Customers?</div>
+
+                                        <input type="radio" class="radio" name="intern" value="Yes" id="input">Yes
+                                        <input type="radio" class="radio" name="intern" value="No" id="input">No
+
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="field">
+                                        <div class="label"> Your Role in the organization</div>
+                                        <input type="text" id="input">
+                                    </div>
+                                    <div class="field">
+                                        <div class="label"> Address</div>
+
+                                        <input type="text" id="input">
+                                    </div>
+                                    <div class="row">
+                                        <div class="column">
+                                            <div class="field">
+                                                <div class="label"> State</div>
+                                                <select name="" id="input">
+                                    <option value="" disabled selected></option>
+                                    <option value="" id="input">Abuja</option>
+                                    <option value="" id="input">Lagos</option>
+                                    <option value="" id="input">Benin</option>
+                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="column">
+                                            <div class="field">
+                                                <div class="label"> City</div>
+                                                <select name="" id="input">
+                                    <option value="" disabled selected></option>
+                                    <option value="" id="input">Banana Island</option>
+                                    <option value="" id="input">Lekki</option>
+                                    <option value="" id="input">Ikoyi</option>
+                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="field-btn btns">
+
+                                <button onclick="nextPrev(-1)" class="prev-1 prev"> <i class="fa fa-angle-double-left"></i>Prev</button>
+                                <button onclick="nextPrev(1)" class="next-1 next">Next<i class="fa fa-angle-double-right"></i></button>
+                            </div>
+                        </div>
+                        <div class="page">
+                            <div class="page-title page-3">Payout Account</div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="field">
+                                        <div class="label">Bank Name</div>
+                                        <input type="text" id="input">
+                                    </div>
+                                    <div class="field">
+                                        <div class="label">Account Name</div>
+                                        <input type="text" id="input">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="field">
+                                        <div class="label"> Account Number</div>
+                                        <input type="text" id="input">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="field-btn submitBtn">
+                                <button onclick="nextPrev(1)" class="btn-sb">Complete</button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+        </section>
+
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>

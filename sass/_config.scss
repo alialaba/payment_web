@@ -1,0 +1,26 @@
+$primary-color:#467DC3;
+$secondary-color:#4A77A6;
+$dark-color:#000000;
+$white-color:#FFFFFF;
+$gray-color:#00000029;
+$white-smoke-color:#F5F5F5;
+$dim-gray:#707070;
+$snow-color:#FEF8F8;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+@function set-text-color($color){
+    @if(lightness($color)> 40%){
+        @return #fff
+    }@else{
+        @return #333
+    }
+}
